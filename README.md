@@ -7,12 +7,25 @@ Refer to BrainFuck, this language consists of seven instructions, an array of in
 ## How to use:
 Initially, every element in this array is 0, and the pointer points to the zeroth element, and then executes according to the following seven instructions.
 
-1."SPACE" : the value of the element pointed to by the current pointer + 1
-2."SPACE"+"SPACE" : the value of the element pointed to by the current pointer - 1
-3."TAB" : The pointer moves one place to the right
-4."TAB" + "TAB" : The pointer moves one place to the left
-5."TAB" + "SPACE" : When the element pointed is 0, jump to the matching 6 *(5/6 matching like brackets)*
-6. "SPACE" + "TAB": When the element pointed is NOT 0, jump to the matching 5 *(5/6 matching like brackets)*
-7. "TAB" + "SPACE" + "TAB" : Output the element pointed by the pointer in the form of ASCII code
+1.**"SPACE"** : the value of the element pointed to by the current pointer + 1
+
+2.**"SPACE"+"SPACE"** : the value of the element pointed to by the current pointer - 1
+
+3.**"TAB"** : The pointer moves one place to the right
+
+4.**"TAB" + "TAB"** : The pointer moves one place to the left
+
+5.**"TAB" + "SPACE"** : When the element pointed is 0, jump to the matching 6 *(5/6 matching like brackets)*
+
+6. **"SPACE" + "TAB"**: When the element pointed is NOT 0, jump to the matching 5 *(5/6 matching like brackets)*
+
+7. **"TAB" + "SPACE" + "TAB"** : Output the element pointed by the pointer in the form of ASCII code
+
 
 Instructions and Instructions are distinguished by ENTER, everything that is not TAB, SPACE and ENTER will be regarded as Comment
+
+## Demo Program
+### Hello World!
+1111111153111153113111311131444426313132331546426337322271111111771117337427471117222222722222222733173117
+### Move Data to it's right place
+35264523146
